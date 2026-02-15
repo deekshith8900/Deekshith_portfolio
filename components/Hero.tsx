@@ -55,6 +55,8 @@ export default function Hero() {
                         </ScrollLink>
                         <a
                             href={hero.ctaLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="inline-flex items-center justify-center rounded-lg border border-neutral-800 bg-black px-8 py-3 text-sm font-semibold text-white hover:bg-neutral-900 transition-colors group"
                         >
                             {hero.cta} <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
