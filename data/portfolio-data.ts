@@ -30,7 +30,7 @@ export const portfolioData = {
     },
     {
       company: "Kapi Technologies",
-      role: "Data Analyst / Junior Data Engineer",
+      role: "Junior Data Engineer",
       period: "Aug 2021 – Dec 2022",
       description: [
         "Wrote advanced SQL queries (joins, CTEs, window functions) to analyze daily order volume, inventory stock levels, and category performance across retail stores.",

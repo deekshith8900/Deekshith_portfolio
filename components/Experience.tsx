@@ -7,7 +7,7 @@ import { portfolioData } from "@/data/portfolio-data";
 const { experience } = portfolioData;
 
 const ExperienceItem = ({ exp }: { exp: any }) => (
-    <div className="relative pl-8 md:pl-0">
+    <div className="relative pl-8 md:pl-0 mb-16 last:mb-0">
         <div className="hidden md:block absolute left-[50%] top-0 transform -translate-x-1/2 w-px h-full bg-neutral-800 -z-10" />
         <div className="hidden md:block absolute left-[50%] top-0 transform -translate-x-1/2 w-3 h-3 rounded-full bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.8)]" />
 
