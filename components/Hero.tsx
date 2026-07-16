@@ -35,7 +35,7 @@ export default function Hero() {
                     </div>
 
                     <h1 className="text-5xl md:text-8xl font-bold tracking-tight mb-8">
-                        <span className="block text-white">Data Engineer.</span>
+                        <span className="block text-white">Software Engineer.</span>
                         <span className="block bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent animate-text-gradient bg-300%">
                             Building Scale.
                         </span>

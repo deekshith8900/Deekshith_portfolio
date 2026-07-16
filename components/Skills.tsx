@@ -43,9 +43,10 @@ export default function Skills() {
 
                     <div className="md:w-2/3">
                         <SkillGroup title="Languages" skills={skills.languages} delay={0} />
-                        <SkillGroup title="Data Engineering & Streaming" skills={skills.dataEngineering} delay={0.1} />
-                        <SkillGroup title="Cloud & Databases" skills={skills.cloudDb} delay={0.2} />
-                        <SkillGroup title="Tools & Visualization" skills={skills.tools} delay={0.3} />
+                        <SkillGroup title="Frameworks & Libraries" skills={skills.frameworks} delay={0.1} />
+                        <SkillGroup title="Cloud & DevOps" skills={skills.cloudDevops} delay={0.2} />
+                        <SkillGroup title="Databases" skills={skills.databases} delay={0.3} />
+                        <SkillGroup title="Tools & Testing" skills={skills.tools} delay={0.4} />
                     </div>
                 </div>
             </div>

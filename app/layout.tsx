@@ -7,8 +7,8 @@ import clsx from "clsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Deekshith Alampally | Data Engineer",
-  description: "Data Engineer specializing in scalable ETL pipelines, SQL warehousing, and production-grade data systems.",
+  title: "Deekshith Alampally | Software Engineer",
+  description: "Software Engineer specializing in scalable, cloud-native applications, microservices, REST APIs, and full-stack development.",
 };
 
 export default function RootLayout({

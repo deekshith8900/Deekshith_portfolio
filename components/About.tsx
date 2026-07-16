@@ -7,9 +7,9 @@ import { portfolioData } from "@/data/portfolio-data";
 const { about } = portfolioData;
 
 const stats = [
-    { label: "Daily Records", value: "500K+" },
-    { label: "Data Accuracy", value: "99.9%" },
-    { label: "Pipeline Uptime", value: "100%" },
+    { label: "Latency Reduced", value: "42%" },
+    { label: "Ops Efficiency", value: "38%" },
+    { label: "Satisfaction Up", value: "27%" },
 ];
 
 export default function About() {
@@ -49,7 +49,7 @@ export default function About() {
                     >
                         {/* Abstract Code Visualization / Placeholder for Image */}
                         <div className="absolute inset-0 flex items-center justify-center text-neutral-800 font-mono text-9xl font-bold opacity-20 select-none">
-                            ETL
+                            API
                         </div>
                         <div className="absolute bottom-8 left-8 right-8">
                             <div className="p-4 rounded-xl bg-black/50 backdrop-blur-md border border-white/10">
@@ -60,16 +60,16 @@ export default function About() {
                                 </div>
                                 <div className="space-y-2 font-mono text-xs text-neutral-400">
                                     <div className="flex justify-between">
-                                        <span>origin: aws_s3</span>
+                                        <span>service: spring_boot</span>
                                         <span className="text-green-500">active</span>
                                     </div>
                                     <div className="flex justify-between">
-                                        <span>transform: apache_spark</span>
-                                        <span className="text-blue-500">processing</span>
+                                        <span>database: postgresql</span>
+                                        <span className="text-blue-500">connected</span>
                                     </div>
                                     <div className="flex justify-between">
-                                        <span>destination: snowflake</span>
-                                        <span className="text-neutral-600">waiting</span>
+                                        <span>cache: redis_cluster</span>
+                                        <span className="text-neutral-600">hit_98%</span>
                                     </div>
                                 </div>
                             </div>

@@ -3,7 +3,6 @@
 
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio-data";
-import { Mail, Linkedin, Github } from "lucide-react";
 
 const { contact } = portfolioData;
 
@@ -35,10 +34,10 @@ export default function Contact() {
                     viewport={{ once: true }}
                 >
                     <h2 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-8">
-                        Let's Build.
+                        Let&apos;s Build.
                     </h2>
                     <p className="text-xl text-neutral-400 mb-12">
-                        I'm ready to bring my data engineering expertise to your team.
+                        I&apos;m ready to bring my software engineering expertise to your team.
                         Open to full-time roles in the United States.
                     </p>
 

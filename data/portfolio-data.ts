@@ -1,86 +1,81 @@
 
 export const portfolioData = {
   hero: {
-    headline: "Data Engineer. Building Scalable, Production-Grade Data Platforms.",
-    subHeadline: "Data Engineer with 2 years of experience building batch ETL pipelines in retail analytics environments. Experienced in AWS-based data workflows (S3, Redshift), Apache Airflow orchestration, and PySpark transformations.",
+    headline: "Software Engineer. Building Scalable, Cloud-Native Applications.",
+    subHeadline: "Software Engineer with 4+ years of experience designing and developing scalable, cloud-native applications using Java, Spring Boot, React, TypeScript, and SQL. Experienced in microservices, secure backend services, and cloud platforms.",
     cta: "Download Resume",
     ctaLink: "/deekshithalampally_resume.pdf",
   },
   about: {
     title: "About Me",
-    content: "Data Engineer with 2 years of experience building batch ETL pipelines in retail analytics environments. Experienced in AWS-based data workflows (S3, Redshift), Apache Airflow orchestration, and PySpark transformations. Strong foundation in dimensional data modeling, SQL performance optimization, and data quality validation to support scalable reporting systems.",
+    content: "Software Engineer with 4+ years of experience designing and developing scalable, cloud-native applications using Java, Spring Boot, React, TypeScript, and SQL. Experienced in building microservices, REST APIs, event-driven systems, and secure backend services while working with AWS, Docker, Kubernetes, Terraform, and CI/CD pipelines. Proficient in developing full-stack applications, integrating AI/LLM-powered features, optimizing application performance, and working with PostgreSQL, MySQL, MongoDB, and Redis. Skilled in Agile Scrum, system design, automated testing, and production monitoring using Grafana, Prometheus, and CloudWatch.",
   },
   experience: [
     {
-      company: "Cognizant Technology Solutions",
-      role: "Data Engineer (Retail Client)",
-      period: "Dec 2022 – Aug 2023",
+      company: "Kaiser Permanente",
+      role: "Software Engineer",
+      period: "Feb 2026 – Present",
       description: [
-        "Contributed to batch ETL pipelines processing 200K–500K daily retail transaction records into AWS-based analytics systems.",
-        "Ingested raw order, inventory, and product datasets into Amazon S3 and supported transformation and loading into Amazon Redshift.",
-        "Designed and maintained star schema models including fact_sales and dimension tables (dim_product, dim_store, dim_customer).",
-        "Developed SQL transformation logic to support reporting on order volume trends, category performance, and inventory analysis.",
-        "Improved reporting latency by optimizing transformation queries and aggregation logic.",
-        "Built Python ingestion scripts with schema validation, null handling, structured logging, and retry-safe processing.",
-        "Contributed to Apache Airflow DAG development including scheduling, retry configuration, dependency management, and failure monitoring.",
-        "Used PySpark to process large historical sales datasets, improving aggregation efficiency for category-level reporting.",
-        "Implemented data quality checks validating order counts and inventory reconciliation, reducing reporting discrepancies.",
-        "Performed root cause analysis on pipeline failures caused by schema mismatches and missing inventory updates."
+        "Spearheaded the **AI-Powered Patient Care Coordination Platform** by designing scalable Spring Boot microservices and integrating LLM-powered clinical assistance to streamline patient scheduling, care coordination, and provider workflows, improving operational efficiency by **38%**.",
+        "Architected secure backend services using **Java, Spring Security, PostgreSQL, Redis, and Apache Kafka** to support event-driven communication, role-based access control, and high-performance healthcare data processing while reducing API response time by **42%**.",
+        "Developed reusable **React and TypeScript** components integrated with REST APIs, implemented **Redux** for state management, and optimized application performance, increasing user satisfaction scores by **27%**.",
+        "Implemented cloud-native deployment pipelines using **AWS (EC2, Lambda, RDS, S3), Docker, Kubernetes, Terraform, and Jenkins**, enabling automated infrastructure provisioning, CI/CD, application scaling, and production monitoring.",
+        "Collaborated with cross-functional engineering, QA, and product teams to perform code reviews, write **JUnit** test cases, monitor services using **Grafana, Prometheus, and CloudWatch**, and deliver secure, HIPAA-compliant software following Agile Scrum and OWASP best practices."
       ]
     },
     {
-      company: "Kapi Technologies",
-      role: "Junior Data Engineer",
-      period: "Aug 2021 – Dec 2022",
+      company: "TatvaSoft",
+      role: "Software Engineer",
+      period: "Oct 2019 – Jul 2023",
       description: [
-        "Wrote advanced SQL queries (joins, CTEs, window functions) to analyze daily order volume, inventory stock levels, and category performance across retail stores.",
-        "Automated recurring KPI reports using Python (pandas), reducing manual reporting effort by ~30%.",
-        "Designed aggregation tables to support dashboards tracking revenue trends, inventory turnover, and product performance.",
-        "Cleaned and transformed structured and semi-structured datasets (CSV, JSON, transactional logs).",
-        "Improved query performance through indexing and query restructuring, reducing report generation time.",
-        "Built Power BI dashboards enabling stakeholders to monitor sales and inventory metrics at regional and store levels.",
-        "Collaborated with business stakeholders to define KPIs and validate sales and inventory reporting accuracy."
+        "Contributed to the **Customer Order Management Platform** by developing **Java and Spring Boot REST APIs** for order processing, customer management, and product catalog features while collaborating with senior engineers in an Agile environment.",
+        "Developed backend services using **Spring Boot, Hibernate, and MySQL** to implement business logic, perform CRUD operations, and support secure database transactions.",
+        "Built responsive user interfaces with **React, JavaScript, HTML, and CSS**, improving page responsiveness and increasing user task completion efficiency by **25%**.",
+        "Integrated **RESTful APIs** with frontend components, validated request and response data, and resolved functional issues, reducing application defects by **30%** during testing.",
+        "Wrote **SQL queries, stored procedures, and database updates** for MySQL, improving data retrieval performance by **20%** while maintaining data consistency.",
+        "Assisted in deploying application builds using **Git, Maven, Jenkins, and Docker**, supporting CI/CD workflows and decreasing deployment time by **35%**.",
+        "Participated in unit testing with **JUnit**, API validation using **Postman**, and defect tracking through **Jira** to ensure reliable software releases and maintain code quality.",
+        "Collaborated with cross-functional teams during sprint planning, code reviews, and daily stand-ups while following **Agile Scrum**, version control best practices, and secure coding standards."
       ]
     }
   ],
   projects: [
     {
-      title: "Production-Grade ELT Pipeline",
-      problem: "Need for a resilient data ingestion system capable of handling API failures and ensuring zero data loss during high-volume loads.",
-      solution: "Built an end-to-end Airflow-orchestrated ELT pipeline ingesting API data into object storage and PostgreSQL.",
-      techStack: ["Python", "Apache Airflow", "Docker", "PostgreSQL", "MinIO"],
+      title: "Cloud Cost Optimization Dashboard",
+      problem: "Needed visibility and cost governance for complex cloud infrastructure budgets.",
+      solution: "Built cloud usage analytics using AWS Cost Explorer API, Amazon Athena, and Amazon QuickSight to monitor infrastructure spending, analyze resource utilization trends, optimize cloud costs, and support data-driven financial decision-making.",
+      techStack: ["Python", "AWS Athena", "QuickSight", "EventBridge", "Amazon SNS"],
       outcomes: [
-        "Built an end-to-end Airflow-orchestrated ELT pipeline ingesting API data into object storage and PostgreSQL.",
-        "Designed dimensional data models (fact and dimension tables) to support analytics-ready reporting.",
-        "Implemented idempotent loading logic to handle pipeline retries, historical backfills, and failure recovery without duplication.",
-        "Integrated pagination handling, rate-limit management, structured logging, and retry mechanisms for reliable ingestion.",
-        "Containerized the platform using Docker to simulate a production-style data architecture."
+        "Built cloud usage analytics using **AWS Cost Explorer API, Amazon Athena, and Amazon QuickSight** to monitor infrastructure spending.",
+        "Analyzed resource utilization trends, optimized cloud costs, and supported data-driven financial decision-making.",
+        "Automated cost reporting and budget alerts using **AWS EventBridge and Amazon SNS** notifications, enabling proactive cost governance."
       ],
       link: "#"
     },
     {
-      title: "YouTube Analytics Data Warehouse",
-      problem: "Content performance data was fragmented across API endpoints, making trend analysis impossible.",
-      solution: "Automated extraction of YouTube channel performance metrics using Python and REST APIs.",
-      techStack: ["Python", "SQL", "YouTube Data API", "Tableau"],
+      title: "API Gateway & Service Mesh Implementation",
+      problem: "Fragmentation of API routing, authentication, and secure service-to-service communication.",
+      solution: "Configured Kong API Gateway for API routing, authentication, and rate limiting across microservices. Implemented secure service-to-service communication using Istio Service Mesh with traffic management and observability.",
+      techStack: ["Kong API Gateway", "Istio Service Mesh", "Kubernetes", "Docker", "mTLS"],
       outcomes: [
-        "Automated extraction of YouTube channel performance metrics using Python and REST APIs.",
-        "Designed SQL-based warehouse schema tracking views, impressions, CTR, watch time, and subscriber growth.",
-        "Built transformation pipelines enabling trend analysis and content performance insights.",
-        "Developed Tableau dashboards for visualization and stakeholder reporting."
+        "Configured **Kong API Gateway** for API routing, authentication, and rate limiting across microservices.",
+        "Ensured secure API exposure, high availability, centralized policy enforcement, and scalable traffic management.",
+        "Implemented secure service-to-service communication using **Istio Service Mesh** with traffic management and observability, enabling mutual TLS (mTLS), intelligent traffic routing, fault tolerance, and distributed tracing."
       ],
       link: "#"
     }
   ],
   skills: {
-    languages: ["Python", "SQL"],
-    dataEngineering: ["ETL/ELT", "Incremental Loads", "Data Validation", "Star Schema Modeling", "Batch Processing", "Apache Airflow", "PySpark"],
-    cloudDb: ["AWS (S3, Redshift, EC2, Lambda)", "PostgreSQL", "MySQL", "SQL Server"],
-    tools: ["Docker", "Git", "Jira", "Tableau", "Power BI"]
+    languages: ["Java", "Python", "JavaScript", "TypeScript", "SQL"],
+    frameworks: ["Spring Boot", "Hibernate", "Node.js", "Express.js", "React", "Redux", "REST APIs"],
+    cloudDevops: ["AWS (EC2, S3, Lambda, RDS)", "Docker", "Kubernetes", "Terraform", "Jenkins", "CI/CD", "Git"],
+    databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+    tools: ["JUnit", "Jest", "Postman", "Maven", "Jira", "Grafana", "Prometheus", "CloudWatch"]
   },
   contact: {
-    email: "deekshithalampally@gmail.com",
+    email: "deekshithalampally3@gmail.com",
     linkedin: "https://www.linkedin.com/in/deekshith-alampally-1b8294174",
     github: "https://github.com/deekshith8900"
   }
 };
+

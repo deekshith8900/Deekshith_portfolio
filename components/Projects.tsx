@@ -3,12 +3,21 @@
 
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio-data";
-import { Github, ExternalLink, ArrowUpRight } from "lucide-react";
+import { Github, ArrowUpRight } from "lucide-react";
 import clsx from "clsx";
 
 const { projects } = portfolioData;
 
-function ProjectCard({ project, className }: { project: any; className?: string }) {
+interface ProjectType {
+    title: string;
+    problem: string;
+    solution: string;
+    techStack: string[];
+    outcomes: string[];
+    link: string;
+}
+
+function ProjectCard({ project, className }: { project: ProjectType; className?: string }) {
     return (
         <motion.div
             whileHover={{ y: -5 }}
