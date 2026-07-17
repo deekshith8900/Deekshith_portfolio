@@ -37,7 +37,7 @@ function ProjectCard({ project, className }: { project: ProjectType; className?:
                         <a href="#" className="p-2 rounded-full bg-black/50 hover:bg-white hover:text-black transition-colors border border-neutral-800 text-neutral-400">
                             <Github size={18} />
                         </a>
-                        {project.title.includes("LogSense") && (
+                        {project.title.toLowerCase().includes("ai") && (
                             <div className="px-3 py-1 rounded-full bg-green-500/10 border border-green-500/20 text-green-500 text-xs font-medium flex items-center">
                                 AI POWERED
                             </div>
@@ -102,7 +102,7 @@ export default function Projects() {
                         <ProjectCard
                             key={index}
                             project={project}
-                            className={index === 0 ? "md:col-span-2" : "md:col-span-1"}
+                            className={index === 0 ? "md:col-span-2" : index === 2 ? "md:col-span-3" : "md:col-span-1"}
                         />
                     ))}
                 </div>

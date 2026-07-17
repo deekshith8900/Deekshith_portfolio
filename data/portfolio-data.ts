@@ -63,6 +63,18 @@ export const portfolioData = {
         "Implemented secure service-to-service communication using **Istio Service Mesh** with traffic management and observability, enabling mutual TLS (mTLS), intelligent traffic routing, fault tolerance, and distributed tracing."
       ],
       link: "#"
+    },
+    {
+      title: "OnlyMath AI Chatbot & Academy Platform",
+      problem: "Need for an interactive, context-aware math learning platform that answers questions accurately without hallucinations.",
+      solution: "Designed and developed a Retrieval-Augmented Generation (RAG) chatbot using FastAPI, Groq (LLaMA-3), Pinecone Vector DB, and Supabase, integrated with interactive tools like a canvas-based digital whiteboard, flashcard generator, and performance leaderboards.",
+      techStack: ["FastAPI", "Python", "Groq LLaMA-3", "Pinecone", "Supabase", "JavaScript"],
+      outcomes: [
+        "Built a robust **RAG pipeline** in Python using LangChain and Pinecone vector database to ingest and retrieve mathematical curriculum data.",
+        "Integrated **Groq API (LLaMA-3)** to power real-time, context-aware tutoring and automated question-answering.",
+        "Developed a full-stack learning experience with a **Supabase** backend tracking student stats, whiteboard canvas states, and leaderboards."
+      ],
+      link: "#"
     }
   ],
   skills: {
