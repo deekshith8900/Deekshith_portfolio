@@ -23,6 +23,7 @@ export default function Navbar() {
         { name: "Work", to: "experience" },
         { name: "Projects", to: "projects" },
         { name: "Tech", to: "skills" },
+        { name: "Certifications", to: "certifications" },
     ];
 
     return (

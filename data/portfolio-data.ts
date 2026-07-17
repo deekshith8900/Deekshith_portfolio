@@ -72,6 +72,32 @@ export const portfolioData = {
     databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
     tools: ["JUnit", "Jest", "Postman", "Maven", "Jira", "Grafana", "Prometheus", "CloudWatch"]
   },
+  certifications: [
+    {
+      title: "AWS Certified Data Engineer – Associate",
+      issuer: "Amazon Web Services (AWS)",
+      date: "Issued Apr 2026",
+      details: ["Validated proficiency in data ingestion, transformation, storage, security, and cost optimization on AWS."]
+    },
+    {
+      title: "FinOps & Cloud Financial Management",
+      issuer: "FinOps Foundation",
+      date: "Issued Nov 2025",
+      details: ["Certified in Introduction to FOCUS (FinOps Open Cost & Usage Specification) & Introduction to FinOps for cloud financial cost optimization."]
+    },
+    {
+      title: "Google Cloud Platform (GCP) Capabilities",
+      issuer: "Google Cloud Skills Boost",
+      date: "Issued Sep – Oct 2025",
+      details: ["Completed specialized tracks in GCP Infrastructure, Cloud Load Balancing, App Dev Environments, and Networking & Security."]
+    },
+    {
+      title: "SQL (Intermediate)",
+      issuer: "HackerRank",
+      date: "Issued Nov 2025",
+      details: ["Verified skills in complex joins, subqueries, query structure, and relational database data modeling."]
+    }
+  ],
   contact: {
     email: "deekshithalampally3@gmail.com",
     linkedin: "https://www.linkedin.com/in/deekshith-alampally-1b8294174",
