@@ -55,7 +55,7 @@ export default function Navbar() {
                     <div className="flex items-center gap-4">
                         <a href="https://github.com/deekshith8900" target="_blank" className="text-neutral-400 hover:text-white transition-colors"><Github size={20} /></a>
                         <a href="https://www.linkedin.com/in/deekshith-alampally-1b8294174" target="_blank" className="text-neutral-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
-                        <a href="mailto:deekshithalampally@gmail.com" className="text-neutral-400 hover:text-white transition-colors"><Mail size={20} /></a>
+                        <a href="mailto:deekshithalampally3@gmail.com" className="text-neutral-400 hover:text-white transition-colors"><Mail size={20} /></a>
                     </div>
                 </div>
 
